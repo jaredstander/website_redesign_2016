@@ -6,8 +6,12 @@ $(document).ready(function(){
   $(".content h2").on( "click", function(e) {
     $(this).toggleClass("open");
     if($(this).next().is(":hidden")){
+      $(this).children(".circle").children(".downarrow").hide(0);
+      $(this).children(".circle").children(".uparrow").show(0);
       $(this).next().slideDown(200);
     }else{
+      $(this).children(".circle").children(".uparrow").hide(0);
+      $(this).children(".circle").children(".downarrow").show(0);
       $(this).next().slideUp(200);
     }
   });
