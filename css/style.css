@@ -1,0 +1,20 @@
+body {font-family:sans-serif; margin:2vw; font-size:2vw;}
+h2 {text-align:center; padding:2vw; background-color:#eee; border-radius:2vw;}
+p {font-size:2vw; margin:2vw;}
+img.my-picture {display:block; margin-left:auto; margin-right:auto;}
+a:link,a:visited,a:active {color:#f90; text-decoration:none;}
+a:hover {color:#004;}
+.content {width:100%;}
+.over {background-color:#f90;}
+.open {background-color:#f90;}
+.project-details {text-indent:2vw; color:#888;}
+
+.arrow {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 50px 0 50px 50px;
+  border-color: transparent transparent transparent #ffffff;
+}
+
+/*@media (max-width:600px){:root {font-size:4vw;}}*/
