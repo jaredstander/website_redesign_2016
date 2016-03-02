@@ -1,27 +1,27 @@
 /* Media query settings for smaller-screen mobile devices. Mostly font and object sizes. */
 :root {font-size:4vw;}
-body {font-family:sans-serif; margin:2vw;}
-h2 {text-align:center; padding:2vw; background-color:#eee; border-radius:2vw;}
-p {margin:2vw;}
+body {font-family:sans-serif; margin:4vw;}
+h2 {text-align:center; padding:4vw; background-color:#eee; border-radius:4vw;}
+p {margin:4vw;}
 img.my-picture {display:block; margin-left:auto; margin-right:auto;}
 a:link,a:visited,a:active {color:#f90; text-decoration:none;}
 a:hover {color:#004;}
 .content {width:100%;}
 .over {background-color:#f90;}
 .open {background-color:#f90;}
-.project-details {text-indent:2vw; color:#888;}
-.circle {float:right; display:inline-block; width:3.6vw; height:3.6vw; margin:0; padding:0; background-color:#fff; border-radius:2vw;}
-.downarrow {border-right:1vw solid #eee; border-bottom:1vw solid #eee; width:1vw; height:1vw; transform: rotate(45deg); margin-top:0.6vw; margin-left:0.8vw;}
-.uparrow {display:none; border-right:1vw solid #f90; border-bottom:1vw solid #f90; width:1vw; height:1vw; transform: rotate(-135deg); margin-top:1vw; margin-left:0.8vw;}
+.project-details {text-indent:4vw; color:#888;}
+.circle {float:right; display:inline-block; width:7.2vw; height:7.2vw; margin:0; padding:0; background-color:#fff; border-radius:4vw;}
+.downarrow {border-right:2vw solid #eee; border-bottom:2vw solid #eee; width:2vw; height:2vw; transform: rotate(45deg); margin-top:1.2vw; margin-left:1.7vw;}
+.uparrow {display:none; border-right:2vw solid #f90; border-bottom:2vw solid #f90; width:2vw; height:2vw; transform: rotate(-135deg); margin-top:2.1vw; margin-left:1.6vw;}
 
-/* Media query settings for smaller-screen mobile devices. Mostly font and object sizes. */
+/* Media query settings for large-screen devices. All font and object sizes. */
 @media (min-width:600px){
   :root {font-size:2vw;}
-  body {}
-  h2 {}
-  p {}
-  .project-details {}
-  .circle {}
-  .downarrow {}
-  .uparrow {}
+  body {margin:2vw;}
+  h2 {padding:2vw; border-radius:2vw;}
+  p {margin:2vw;}
+  .project-details {text-indent:2vw;}
+  .circle {width:3.6vw; height:3.6vw; border-radius:2vw;}
+  .downarrow {border-right:1vw solid #eee; border-bottom:1vw solid #eee; width:1vw; height:1vw; margin-top:0.6vw; margin-left:0.8vw;}
+  .uparrow {display:none; border-right:1vw solid #f90; border-bottom:1vw solid #f90; width:1vw; height:1vw; margin-top:1vw; margin-left:0.8vw;}
 }
