@@ -1,28 +1,56 @@
-/* Media query settings for large-screen mobile and desktop devices. */
-:root {font-size:2vw;}
-body {font-family:sans-serif; margin:2vw;}
-h1 {text-align:center;}
-h2 {text-align:center; padding:2vw; background-color:#ddd; border-radius:2vw; padding-left:5.6vw;}
-p {margin:2vw;}
-img.my-picture {display:block; margin-left:auto; margin-right:auto;}
-a:link,a:visited,a:active {color:#f90; text-decoration:none;}
-a:hover {color:#004;}
-.content {width:100%;}
-.over {background-color:#f90;}
-.open {background-color:#f90;}
-.project-details {text-indent:2vw; color:#888;}
-.circle {float:right; display:inline-block; width:3.6vw; height:3.6vw; margin:0; padding:0; background-color:#fff; border-radius:2vw;}
-.downarrow {border-right:1vw solid #ddd; border-bottom:1vw solid #ddd; width:1vw; height:1vw; transform: rotate(45deg); margin-top:0.6vw; margin-left:0.8vw;}
-.uparrow {display:none; border-right:1vw solid #f90; border-bottom:1vw solid #f90; width:1vw; height:1vw; transform: rotate(-135deg); margin-top:1vw; margin-left:0.8vw;}
+/* Media query settings for LARGE screens. */
+@media all and (min-width: 500px) {
+  :root {font-size:2vw;}
+  body {font-family:sans-serif; margin:2vw;}
+  h1 {text-align:center;}
+  h2 {text-align:center; padding:2vw; background-color:#ddd; border-radius:2vw; padding-left:5.6vw;}
+  p {margin:2vw;}
+  img.my-picture {display:block; margin-left:auto; margin-right:auto;}
+  a:link,a:visited,a:active {color:#f90; text-decoration:none;}
+  a:hover {color:#004;}
+  .content {width:100%;}
+  .over {background-color:#f90;}
+  .open {background-color:#f90;}
+  .project-details {text-indent:2vw; color:#888;}
+  .circle {float:right; display:inline-block; width:3.6vw; height:3.6vw; margin:0; padding:0; background-color:#fff; border-radius:2vw;}
+  .downarrow {border-right:1vw solid #ddd; border-bottom:1vw solid #ddd; width:1vw; height:1vw; transform: rotate(45deg); margin-top:0.6vw; margin-left:0.9vw;}
+  .uparrow {display:none; border-right:1vw solid #f90; border-bottom:1vw solid #f90; width:1vw; height:1vw; transform: rotate(-135deg); margin-top:1vw; margin-left:0.9vw;}
+}
 
-/* Media query settings for small-screen devices. */
-@media only screen and (max-width: 600px){
+/* Media query settings for SMALL screens. */
+@media not all and (min-width: 500px){
   :root {font-size:4vw;}
-  body {margin:4vw;}
-  h2 {padding:4vw; border-radius:4vw; padding-left:11.2vw;}
+  body {font-family:sans-serif; margin:4vw;}
+  h1 {text-align:center;}
+  h2 {text-align:center; background-color:#ddd; padding:4vw; border-radius:4vw; padding-left:11.2vw;}
   p {margin:4vw;}
-  .project-details {text-indent:4vw;}
-  .circle {width:7.2vw; height:7.2vw; border-radius:4vw;}
-  .downarrow {border-right:2vw solid #ddd; border-bottom:2vw solid #ddd; width:2vw; height:2vw; margin-top:1.2vw; margin-left:1.7vw;}
-  .uparrow {border-right:2vw solid #f90; border-bottom:2vw solid #f90; width:2vw; height:2vw; margin-top:2.1vw; margin-left:1.6vw;}
+  img.my-picture {display:block; margin-left:auto; margin-right:auto;}
+  a:link,a:visited,a:active {color:#f90; text-decoration:none;}
+  a:hover {color:#004;}
+  .content {width:100%;}
+  .over {background-color:#f90;}
+  .open {background-color:#f90;}
+  .project-details {color:#888; text-indent:4vw;}
+  .circle {float:right; display:inline-block; margin:0; padding:0; background-color:#fff; width:7.2vw; height:7.2vw; border-radius:4vw;}
+  .downarrow {transform: rotate(45deg); border-right:2vw solid #ddd; border-bottom:2vw solid #ddd; width:2vw; height:2vw; margin-top:1.2vw; margin-left:1.6vw;}
+  .uparrow {transform: rotate(-135deg); display:none; border-right:2vw solid #f90; border-bottom:2vw solid #f90; width:2vw; height:2vw; margin-top:2.1vw; margin-left:1.6vw;}
+}
+
+/* Media query settings for *H U G E* screens. */
+@media all and (min-width: 1000px){
+  :root {font-size:2vw;}
+  body {font-family:sans-serif; margin:2vw;}
+  h1 {text-align:center;}
+  h2 {text-align:center; padding:2vw; background-color:#ddd; border-radius:2vw; padding-left:5.6vw;}
+  p {margin:2vw;}
+  img.my-picture {display:block; margin-left:auto; margin-right:auto;}
+  a:link,a:visited,a:active {color:#f90; text-decoration:none;}
+  a:hover {color:#004;}
+  .content {width:50%; margin:0 auto;}
+  .over {background-color:#f90;}
+  .open {background-color:#f90;}
+  .project-details {text-indent:2vw; color:#888;}
+  .circle {float:right; display:inline-block; width:3.6vw; height:3.6vw; margin:0; padding:0; background-color:#fff; border-radius:2vw;}
+  .downarrow {border-right:1vw solid #ddd; border-bottom:1vw solid #ddd; width:1vw; height:1vw; transform: rotate(45deg); margin-top:0.6vw; margin-left:0.9vw;}
+  .uparrow {display:none; border-right:1vw solid #f90; border-bottom:1vw solid #f90; width:1vw; height:1vw; transform: rotate(-135deg); margin-top:1vw; margin-left:0.9vw;}
 }
