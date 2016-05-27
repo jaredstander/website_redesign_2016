@@ -3,6 +3,7 @@
 body {font-family:sans-serif; margin:3vw;}
 h1 {text-align:center;}
 h2 {text-align:center; padding:3vw; background-color:#ddd; border-radius:3vw; padding-left:8.4vw;}
+h2:hover {cursor:pointer;}
 p {margin:3vw;}
 img.my-picture {display:block; margin-left:auto; margin-right:auto;}
 a:link,a:visited,a:active {color:#f90; text-decoration:none;}
@@ -21,6 +22,7 @@ a:hover {color:#004;}
   body {font-family:sans-serif; margin:4vw;}
   h1 {text-align:center;}
   h2 {text-align:center; background-color:#ddd; padding:4vw; border-radius:4vw; padding-left:11.2vw;}
+  h2:hover {cursor:pointer;}
   p {margin:4vw;}
   img.my-picture {display:block; margin-left:auto; margin-right:auto;}
   a:link,a:visited,a:active {color:#f90; text-decoration:none;}
@@ -40,6 +42,7 @@ a:hover {color:#004;}
   body {font-family:sans-serif; margin:2vw;}
   h1 {text-align:center;}
   h2 {text-align:center; padding:2vw; background-color:#ddd; border-radius:2vw; padding-left:5.6vw;}
+  h2:hover {cursor:pointer;}
   p {margin:2vw;}
   img.my-picture {display:block; margin-left:auto; margin-right:auto;}
   a:link,a:visited,a:active {color:#f90; text-decoration:none;}
